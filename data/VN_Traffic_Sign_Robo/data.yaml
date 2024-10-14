@@ -1,0 +1,25 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['Biển phụ',
+        'Cấm cac phương tiện hoạt động trong khung giờ cố định',
+        'Cấm đi ngược chiều', 
+        'Cấm dừng - Cấm đỗ', 
+        'Cấm xe máy',
+        'Chỉ hướng đường', 
+        'Đuờng hẹp', 
+        'Giới hạn tốc độ 50Km/h', 
+        'GIơi hạn tốc độ 60Km/h', 
+        'Giới hạn tốc độ 80Km/h', 
+        'Hướng phải đi vòng sang phải', 
+        'Khác', 
+        'Làn đường cho từng xe']
+
+roboflow:
+  workspace: yolo-q0k0v
+  project: traffic-sign-detection-scrz1
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-q0k0v/traffic-sign-detection-scrz1/dataset/2
